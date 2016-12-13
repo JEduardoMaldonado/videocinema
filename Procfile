@@ -1,1 +1,1 @@
-web: python webapp.py $PORT
+web: python video.py $PORT
