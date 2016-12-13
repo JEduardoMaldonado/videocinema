@@ -1,0 +1,40 @@
+$def with (form,result)
+
+    <head>
+        <LINK REL=StyleSheet HREF="static/css/estilo2.css" media="screen" TYPE="text/css" >
+
+        <title> VIDEO CLUB </title>
+    </head>
+    <body>
+        <center>
+        <h1 class="tr1">VIDEO CLUB </h1>
+        </center>
+
+<form name="main" method="post"> 
+$if not form.valid: <p class="error">Try again:</p>
+$:form.render()
+
+<input type="submit"  />    </form>
+
+
+<table class="tabla">
+    <th class="tr1"> pelicula</th>
+    <th class="tr1"> formato</th>
+     <th class="tr1"> cliente</th>
+    <th class="tr1"> tiempo</th>
+     <th class="tr1"> total</th>
+     $for row in result:
+      <tr>
+          <td class="tr1">$row.pelicula</td> 
+          <td class="tr1">$row.formato</td> 
+          <td class="tr1">$row.cliente</td> 
+          <td class="tr1">$row.tiempo </td> 
+          <td class="tr1">$row.total </td>
+      </tr>
+</table>
+
+
+</body>
+      
+    
+</html>

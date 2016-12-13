@@ -1,0 +1,37 @@
+{
+    "results": [{
+            "id": "1",
+            "nombre": "RAPIDO Y FURIOSO 8"
+        },
+        {
+            "id": "2",
+            "nombre": "CREPUSCULO"
+        },
+        {
+            "id": "3",
+            "nombre": "IRON MAN 4"
+        },
+        {
+            "id": "4",
+            "nombre": " ASESINOS"
+        },
+        {
+            "id": "5",
+            "nombre": "POWER RANGER"
+        },
+        {
+            "id": "6",
+            "nombre": " CARS 3"
+        },
+
+        {
+            "id": "7",
+            "nombre": " DEPREDAROR"
+        },
+
+        {
+            "id": "8",
+            "nombre": " MRS.BEEN"
+        }
+    ]
+}
